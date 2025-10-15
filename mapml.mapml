@@ -13,7 +13,7 @@
     </head>
     <body>
         <extent units="OSMTILE">
-            <input name="z" type="zoom" value="16" min="10" max="16" />
+            <input name="z" type="zoom" value="16" min="12" max="16" />
             <input name="x" type="location" axis="column" units="tilematrix" min="53489" max="53595" />
             <input name="y" type="location" axis="row" units="tilematrix" min="28548" max="28633" />
             <link tref="./{z}/{x}/{y}.png" rel="tile" />

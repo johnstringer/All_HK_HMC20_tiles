@@ -8,11 +8,6 @@
 .LSOverride
 ._*
 
-# Windows thumbnail caches
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
 # GDAL or temporary map artifacts
 *.aux.xml
 *.tfw
@@ -20,11 +15,9 @@ Desktop.ini
 *.bak
 *.tmp
 
-# IDE or metadata folders
+# IDE / system metadata
 .idea/
 .vscode/
 __pycache__/
-
-# Ignore any Apple-specific extended attributes or Spotlight files
 .Spotlight-V100
 .Trashes

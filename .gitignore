@@ -1,19 +1,30 @@
+# Ignore all hidden files (anything starting with a dot)
+.*
+!/.gitignore   # keep this file itself tracked
+
 # macOS system files
 .DS_Store
 .AppleDouble
 .LSOverride
 ._*
 
-# Thumbnail caches
-Icon?
-ehthumbs.db
+# Windows thumbnail caches
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Temporary files
-*.tmp
-*.log
-*.bak
-
-# GDAL / tileset temp files
+# GDAL or temporary map artifacts
 *.aux.xml
 *.tfw
+*.log
+*.bak
+*.tmp
+
+# IDE or metadata folders
+.idea/
+.vscode/
+__pycache__/
+
+# Ignore any Apple-specific extended attributes or Spotlight files
+.Spotlight-V100
+.Trashes
